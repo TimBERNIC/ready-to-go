@@ -24,7 +24,7 @@ const App = () => {
                   switch1 === false ? "inactive-button" : "active-button"
                 }
                 functionOnClick={() => {
-                  setSwitch1(switch1 === false ? true : false);
+                  setSwitch1(switch1 === false);
                 }}
                 title="ON"
               />
@@ -33,7 +33,7 @@ const App = () => {
                   switch2 === false ? "inactive-button" : "active-button"
                 }
                 functionOnClick={() => {
-                  setSwitch2(switch2 === false ? true : false);
+                  setSwitch2(switch2 === false);
                 }}
                 title="ON"
               />
@@ -42,7 +42,7 @@ const App = () => {
                   switch3 === false ? "inactive-button" : "active-button"
                 }
                 functionOnClick={() => {
-                  setSwitch3(switch3 === false ? true : false);
+                  setSwitch3(switch3 === false);
                 }}
                 title="ON"
               />
@@ -53,7 +53,7 @@ const App = () => {
                   switch1 === false ? "active-button" : "inactive-button"
                 }
                 functionOnClick={() => {
-                  setSwitch1(switch1 === false ? true : false);
+                  setSwitch1(switch1 === false);
                 }}
                 title="OFF"
               />
@@ -62,7 +62,7 @@ const App = () => {
                   switch2 === false ? "active-button" : "inactive-button"
                 }
                 functionOnClick={() => {
-                  setSwitch2(switch2 === false ? true : false);
+                  setSwitch2(switch2 === false);
                 }}
                 title="OFF"
               />
@@ -71,7 +71,7 @@ const App = () => {
                   switch3 === false ? "active-button" : "inactive-button"
                 }
                 functionOnClick={() => {
-                  setSwitch3(switch3 === false ? true : false);
+                  setSwitch3(switch3 === false);
                 }}
                 title="OFF"
               />
