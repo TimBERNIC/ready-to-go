@@ -8,8 +8,7 @@ const App = () => {
   const [switch1, setSwitch1] = useState(false);
   const [switch2, setSwitch2] = useState(false);
   const [switch3, setSwitch3] = useState(false);
-  console.log(switch1);
-  const [launcher, setLauncher] = useState(false);
+
   return (
     <>
       <header>
