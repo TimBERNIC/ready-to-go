@@ -91,9 +91,9 @@ const App = () => {
           <Button
             className="reset-button"
             functionOnClick={() => {
-              setSwitch1(switch1 === false);
-              setSwitch2(switch2 === false);
-              setSwitch3(switch3 === false);
+              setSwitch1(false);
+              setSwitch2(false);
+              setSwitch3(false);
             }}
             title="RESET"
           />
