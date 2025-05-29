@@ -90,6 +90,7 @@ button:hover {
 
 .ready-to-go {
   background-color: #46ac4a;
+  transition: 2s;
 }
 
 .not-ready {
